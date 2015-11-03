@@ -7,3 +7,8 @@ spring:
             properties:
                 transport:
                     client: true
+                node:
+                    local: false
+                    data: false
+                http:
+                    enabled: true
