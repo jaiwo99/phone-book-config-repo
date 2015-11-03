@@ -11,5 +11,5 @@ eureka:
         serviceUrl:
             defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
     instance:
-        hostname: ${hostname}
+        hostname: laufen
         preferIpAddress: true
