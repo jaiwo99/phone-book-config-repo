@@ -3,7 +3,7 @@ server:
 spring:
     data:
         elasticsearch:
-            cluster-nodes: 127.0.0.1:9300
+            cluster-nodes: 127.0.0.1:9200
             properties:
                 transport:
                     client: true
