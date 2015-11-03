@@ -1,15 +1,2 @@
 server:
     port: 8081
-spring:
-    data:
-        elasticsearch:
-            cluster-nodes: 127.0.0.1:9300
-            cluster-name: phonebook
-            properties:
-                transport:
-                    client: true
-                node:
-                    local: false
-                    data: false
-                http:
-                    enabled: true
