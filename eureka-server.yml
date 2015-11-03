@@ -13,5 +13,4 @@ eureka:
     server:
         waitTimeInMsWhenSyncEmpty: 0
     instance:
-        hostname: laufen
-        preferIpAddress: true
+        hostname: localhost 
