@@ -10,6 +10,8 @@ eureka:
         fetchRegistry: false
         serviceUrl:
             defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    server:
+        waitTimeInMsWhenSyncEmpty: 0
     instance:
         hostname: laufen
         preferIpAddress: true
