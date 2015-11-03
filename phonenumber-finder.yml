@@ -4,3 +4,6 @@ spring:
     data:
         elasticsearch:
             cluster-nodes: 127.0.0.1:9300
+            properties:
+                transport:
+                    client: true
