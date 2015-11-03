@@ -3,7 +3,4 @@ server:
 spring:
     data:
         elasticsearch:
-            cluster-nodes: localhost:8081
-            properties:
-                http:
-                    enabled: true
+            cluster-nodes: localhost:9200
