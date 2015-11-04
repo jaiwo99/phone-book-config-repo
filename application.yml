@@ -2,9 +2,8 @@ eureka:
     server:
         port: 8761
     instance:
+        instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
         leaseRenewalIntervalInSeconds: 10
-        metadataMap:
-            instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
         name: localhost
     client:
         serviceUrl:
