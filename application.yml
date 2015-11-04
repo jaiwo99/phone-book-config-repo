@@ -2,6 +2,8 @@ eureka:
     server:
         port: 8761
     instance:
+        metadataMap:
+            instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
         name: localhost
     client:
         serviceUrl:
