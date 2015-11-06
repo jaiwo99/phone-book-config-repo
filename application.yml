@@ -1,7 +1,3 @@
-spring:
-    cloud:
-        client:
-            hostname: localhost
 eureka:
     server:
         port: 8761
