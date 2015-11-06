@@ -5,3 +5,7 @@ eureka:
         registryFetchIntervalSeconds: 5
     instance:
         leaseRenewalIntervalInSeconds: 10
+
+phonebook:
+    custom:
+        greeting: Liang
