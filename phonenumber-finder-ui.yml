@@ -9,3 +9,8 @@ eureka:
 phonebook:
     custom:
         greeting: Liang
+
+zuul:
+    ignoredServices: '*'
+    routers:
+        phonenumber-finder-ui: /ui/**
