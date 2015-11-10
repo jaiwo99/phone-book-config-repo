@@ -10,10 +10,10 @@ phonebook:
     custom:
         greeting: Liang
 
-zuul:
-    ignoredServices: '*'
-    routers:
-        phonenumber-finder-ui:
-            path: /**
-            serviceId: phonenumber-finder-ui
+#zuul:
+#    ignoredServices: '*'
+#    routers:
+#        phonenumber-finder-ui:
+#            path: /**
+#            serviceId: phonenumber-finder-ui
 
