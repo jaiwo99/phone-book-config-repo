@@ -13,4 +13,7 @@ phonebook:
 zuul:
     ignoredServices: '*'
     routers:
-        phonenumber-finder-ui: /ui/**
+        phonenumber-finder-ui:
+            path: /**
+            serviceId: phonenumber-finder-ui
+
