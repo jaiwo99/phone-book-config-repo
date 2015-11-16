@@ -1,0 +1,7 @@
+zuul:
+    routers:
+        phonenumber-finder-ui: /**
+    ignoredServices: '*'
+
+server:
+    port: ${PORT:8080}
