@@ -1,5 +1,5 @@
 server:
-    port: ${PORT:8080}
+    port: ${PORT:8090}
 eureka:
     client:
         registryFetchIntervalSeconds: 5
@@ -9,11 +9,4 @@ eureka:
 phonebook:
     custom:
         greeting: Liang
-
-#zuul:
-#    ignoredServices: '*'
-#    routers:
-#        phonenumber-finder-ui:
-#            path: /**
-#            serviceId: phonenumber-finder-ui
 
