@@ -1,7 +1,7 @@
 zuul:
     routes:
         phonenumber-finder-ui: /**
-        phonenumber-finder:/api/
+        phonenumber-finder:/api/**
     ignoredServices: '*'
 
 server:
